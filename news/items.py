@@ -16,6 +16,7 @@ class NewsItem(scrapy.Item):
     article_content = scrapy.Field()
     publication_press =scrapy.Field()
     cover =scrapy.Field()
+    reading_num =scrapy.Field()
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass

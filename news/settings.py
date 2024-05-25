@@ -22,6 +22,7 @@ DOWNLOAD_DELAY = 1  # 设置为1秒的延迟
 ITEM_PIPELINES = {
     'news.pipelines.MySQLPipeline': 300,
 }
+MYSQL_BATCH_SIZE=50
 
 
 
